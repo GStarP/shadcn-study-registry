@@ -1,0 +1,26 @@
+{
+    "$schema": "https://ui.shadcn.com/schema/registry.json",
+    "name": "acme",
+    "homepage": "https://acme.com",
+    "items": [
+        {
+            "name": "my-button",
+            "type": "registry:block",
+            "title": "My Button",
+            "description": "My custom Button",
+            "files": [
+                {
+                    "path": "registry/my-button/my-button.tsx",
+                    "type": "registry:component"
+                },
+                {
+                    "path": "registry/my-button/hooks/use-my-button.ts",
+                    "type": "registry:hook"
+                }
+            ],
+            "dependencies": [
+                "ahooks"
+            ]
+        }
+    ]
+}
